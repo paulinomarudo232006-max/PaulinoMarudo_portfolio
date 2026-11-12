@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Paulino Marudo III | BSCS Student &amp; Developer Portfolio</title>
+<meta name="description" content="Portfolio of Paulino Marudo III, a Computer Science student at Cavite State University Bacoor. View projects, certificates, skills, and contact details.">
+<meta name="author" content="Paulino Marudo III">
+<meta property="og:title" content="Paulino Marudo III | Developer Portfolio">
+<meta property="og:description" content="Computer Science student building clean, useful software.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <nav class="wrap" aria-label="Main navigation">
+    <a class="logo" href="#home" aria-label="Paulino Marudo III, home"><b>PAU</b> Paulino Marudo III</a>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects &amp; Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme" type="button" aria-label="Toggle dark mode">Dark mode</button>
+  </nav>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <canvas class="galaxy" aria-hidden="true"></canvas>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="tag">BSCS 3-2 &bull; Computer Science Student</span>
+      <h1>Hi, I'm Paulino. <span>I build clean, useful software.</span></h1>
+      <p class="lead">I am a third-year Computer Science student who enjoys turning ideas into working websites and applications. I care about readable code, simple design, and solving real problems.</p>
+      <div class="btns">
+        <a class="btn main" href="#projects">View my projects</a>
+        <a class="btn alt" href="#contact">Contact me</a>
+
+      </div>
+    </div>
+  <img class="hero-photo" src="images/home.jpe?v=2" alt="Portrait of Paulino Marudo III" width="400" height="400">
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about-grid">
+    <img class="profile" src="images/profile.jpe" alt="Photo of Paulino Marudo III" width="280" height="280" loading="lazy">
+    <div class="about-text">
+      <h2>About me</h2>
+      <p>Hi, I'm Paulino! I'm a third-year Computer Science student at Cavite State University, Bacoor City Campus, and I'm on track to graduate in 2027. I'm from Bacoor, Cavite.</p>
+      <p>I enjoy web development and databases. I use HTML, CSS, and JavaScript, and I work with MySQL and MongoDB. I'm also curious about hardware, and I have tried Arduino projects and LAN setup.</p>
+      <p>I'm still a student, and I'm looking forward to internships and real projects where I can learn from others. This portfolio will grow as I finish new work.</p>
+      <ul class="facts">
+        <li><strong>Program</strong> BS Computer Science 3-2</li>
+        <li><strong>School</strong> Cavite State University, Bacoor</li>
+        <li><strong>Location</strong> Bacoor, Cavite</li>
+      </ul>
+    </div>
+  </div>
+
+   <div class="wrap">
+    <div class="resume-bar">
+      <div>
+        <h3>My resume</h3>
+        <p>See my education, skills, and contact details on one page.</p>
+      </div>
+      <div class="btns">
+        <a class="btn main" id="viewResume" href="images/resume.jpe">View resume</a>
+        <a class="btn alt" href="images/resume.jpe" download="Paulino-Marudo-III-Resume.jpg">Download resume</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="projects" style="background:var(--card);border-block:2px solid var(--ink)">
+  <div class="wrap">
+    <h2>Projects</h2>
+    <p>Here is my project so far. I will add more as I finish them.</p>
+
+     <article class="project">
+      <div class="board" role="img" aria-label="Tic-tac-toe board illustration">
+        <span>X</span><span>O</span><span>X</span>
+        <span></span><span>X</span><span>O</span>
+        <span>O</span><span></span><span>X</span>
+      </div>
+      <h3>Tic-Tac-Toe Game</h3>
+      <p>A browser game of tic-tac-toe with two modes: play against the computer or against a friend. It shows whose turn it is and keeps score for X, O, and draws, with a button to start a new round.</p>
+      <div class="stack"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      <div class="btns">
+        <a class="btn main" href="https://jhonreyaquino08-ops.github.io/tic-tac-toe/" target="_blank" rel="noopener">Play the game</a>
+      </div>
+    </article>
+
+        <div class="sub">
+      <h2>Certificates</h2>
+      <p>Awards and certificates I have earned. Click a certificate to view it.</p>
+      <div class="cert-grid">
+        <button type="button" class="cert-card" data-img="images/cert-1.jpe" data-alt="Certificate of Achievement, Dean's Lister, 2nd Semester S.Y. 2024-2025">
+          <img src="images/cert-1.jpe" alt="Certificate of Achievement, Dean's Lister" loading="lazy">
+          <span class="cert-title">Dean's Lister</span>
+          <span class="cert-meta">2nd Semester, S.Y. 2024–2025 &bull; GWA 1.59</span>
+        </button>
+        <button type="button" class="cert-card" data-img="images/cert-2.jpe" data-alt="Certificate of Recognition, With Honors, June 10, 2024">
+          <img src="images/cert-2.jpe" alt="Certificate of Recognition, With Honors" loading="lazy">
+          <span class="cert-title">With Honors</span>
+          <span class="cert-meta">Academic performance &bull; June 10, 2024</span>
+        </button>
+        <button type="button" class="cert-card" data-img="images/cert-3.jpe" data-alt="Certificate of Recognition, Most Enthusiastic Awardee, June 10, 2024">
+          <img src="images/cert-3.jpe" alt="Certificate of Recognition, Most Enthusiastic Awardee" loading="lazy">
+          <span class="cert-title">Most Enthusiastic Awardee</span>
+          <span class="cert-meta">SEAITT Las Piñas &bull; June 10, 2024</span>
+        </button>
+        <button type="button" class="cert-card" data-img="images/cert-4.jpe" data-alt="Certificate of Recognition, With Honors, Graduation Ceremony S.Y. 2023-2024">
+          <img src="images/cert-4.jpe" alt="Certificate of Recognition, With Honors at graduation" loading="lazy">
+          <span class="cert-title">With Honors (Graduation)</span>
+          <span class="cert-meta">Senior High School &bull; June 19, 2024</span>
+        </button>
+        <button type="button" class="cert-card" data-img="images/cert-5.jpe" data-alt="Certificate of Participation, Basic Japanese Language Seminar, June 19, 2024">
+          <img src="images/cert-5.jpe" alt="Certificate of Participation, Basic Japanese Language Seminar" loading="lazy">
+          <span class="cert-title">Basic Japanese Language Seminar</span>
+          <span class="cert-meta">Certificate of Participation &bull; June 19, 2024</span>
+        </button>
+        <button type="button" class="cert-card" data-img="images/cert-6.jpe" data-alt="Certificate of Appreciation, Section Multimedia Officer, S.Y. 2025-2026">
+          <img src="images/cert-6.jpe" alt="Certificate of Appreciation, Section Multimedia Officer" loading="lazy">
+          <span class="cert-title">Section Multimedia Officer</span>
+          <span class="cert-meta">Certificate of Appreciation &bull; S.Y. 2025–2026</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="plan" id="plan">
+  <div class="wrap">
+    <h2>Update and maintenance plan</h2>
+    <p>I treat this portfolio as a living project. To keep it accurate and useful, I will follow this plan:</p>
+    <ul>
+      <li>Add every finished school or personal project within two weeks of completing it.</li>
+      <li>Upload new certificates and update my skills at the end of each semester.</li>
+      <li>Check all links, spelling, and mobile layout once a month.</li>
+      <li>Review speed and accessibility every term, and improve the design as I learn new techniques.</li>
+      <li>Track all changes in Git so every update is saved and can be reversed.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Contact me</h2>
+      <p>Have a question, an internship opportunity, or a project idea? Send me a message and I will reply as soon as I can.</p>
+      <ul class="links">
+        <li><strong>Email:</strong> <a href="mailto:paulino.marudo232006@gmail.com">paulino.marudo232006@gmail.com</a></li>
+        <li><strong>Location:</strong> Bacoor, Cavite, Philippines</li>
+      </ul>
+    </div>
+    <form id="form" novalidate>
+      <label for="n">Your name</label>
+      <input id="n" name="name" type="text" autocomplete="name" required>
+      <label for="e">Your email</label>
+      <input id="e" name="email" type="email" autocomplete="email" required>
+      <label for="m">Message</label>
+      <textarea id="m" name="message" required></textarea>
+      <button class="btn main" type="submit">Send message</button>
+      <p id="msg" role="status" style="margin-top:1rem"></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p>&copy; <span id="yr">2026</span> Paulino Marudo III &bull; BSCS 3-2</p>
+</footer>
+<dialog id="resumeModal" aria-label="Resume">
+  <button type="button" class="close" id="closeResume" aria-label="Close resume">&times;</button>
+  <img src="images/resume.jpe" alt="Resume of Paulino B. Marudo III">
+</dialog>
+
+<dialog id="certModal" aria-label="Certificate">
+  <button type="button" class="close" id="closeCert" aria-label="Close certificate">&times;</button>
+  <img id="certImg" src="" alt="">
+</dialog>
+
+<script src="script.js"></script>
+</body>
+</html>
